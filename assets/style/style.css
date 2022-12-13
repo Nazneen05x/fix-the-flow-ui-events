@@ -79,3 +79,18 @@ a:nth-of-type(12) {
 }
 
 /* Jouw animaties */
+
+/* FLOW */
+.slide {
+  background-color: pink;
+  animation-name: slide; 
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+ 0% {background-color: var(--secondary)};
+ 50% {background-color: pink};
+}
+
+
+
