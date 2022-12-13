@@ -135,12 +135,13 @@ a:nth-of-type(12) {
 
 @keyframes slidee{
 
-  50%{
-    transform: translate(1500px);
-  }
-  }
+50%{
+  transform: translate(1500px);
+}
+}
 
-  
+/* AND 5 */
+
 .rond{
   animation-name: rond;
   animation-duration: 4s;
@@ -148,11 +149,12 @@ a:nth-of-type(12) {
 
 @keyframes rond{
 
-  50%{
-    transform: rotate(180deg);
-  }
-  }
+50%{
+  transform: rotate(180deg);
+}
+}
 
+/* DESIGN 6 */
 
 .flip{
   animation-name: flip;
@@ -161,9 +163,31 @@ a:nth-of-type(12) {
 
 @keyframes flip{
 
-  50%{
-    transform: rotateY(180deg);
-  }
+50%{
+  transform: rotateY(180deg);
+}
 
-  }
+}
+
+/* FRONTEND 7 */
+
+.colorchange{
+  animation-name: colorchange;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+
+@keyframes colorchange{
+
+0% { background-color: blue; }
+25% { background-color: orange; }
+50% { background-color: yellow; }
+75% { background-color: black; }
+100% { background-color: red; }
+
+}
+
 
