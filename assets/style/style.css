@@ -80,7 +80,8 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 
-/* FLOW */
+/* FLOW 1 */
+
 .color {
   background-color: pink;
   animation-name: color; 
@@ -92,13 +93,12 @@ a:nth-of-type(12) {
  50% {background-color: pink};
 }
 
-/* THE */
+/* THE 2 */
 
 .groot{
   animation-name: grootanmination;
   animation-duration: 2s;
 }
-
 
 @keyframes grootanmination{
 0%{
@@ -112,7 +112,7 @@ a:nth-of-type(12) {
 }
 } 
 
-/* SPRINT5 */
+/* SPRINT5 3 */
 
 .slide{
   animation-name: slide;
@@ -126,7 +126,7 @@ a:nth-of-type(12) {
 }
 }
 
-
+/* INTERFACE 4 */
 
 .slidee{
   animation-name: slidee;
@@ -140,7 +140,7 @@ a:nth-of-type(12) {
   }
   }
 
-
+  
 .rond{
   animation-name: rond;
   animation-duration: 4s;
@@ -149,8 +149,21 @@ a:nth-of-type(12) {
 @keyframes rond{
 
   50%{
-    transform: rote (1500px);
+    transform: rotate(180deg);
   }
   }
 
+
+.flip{
+  animation-name: flip;
+  animation-duration: 4s;
+}
+
+@keyframes flip{
+
+  50%{
+    transform: rotateY(180deg);
+  }
+
+  }
 
