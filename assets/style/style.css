@@ -81,16 +81,76 @@ a:nth-of-type(12) {
 /* Jouw animaties */
 
 /* FLOW */
-.slide {
+.color {
   background-color: pink;
-  animation-name: slide; 
+  animation-name: color; 
   animation-duration: 2s;
 }
 
-@keyframes slide {
+@keyframes color {
  0% {background-color: var(--secondary)};
  50% {background-color: pink};
 }
 
+/* THE */
+
+.groot{
+  animation-name: grootanmination;
+  animation-duration: 2s;
+}
+
+
+@keyframes grootanmination{
+0%{
+  transform: scale(1);
+}
+50%{
+  transform: scale(2);
+}
+100%{
+  transform: scale(1);
+}
+} 
+
+/* SPRINT5 */
+
+.slide{
+  animation-name: slide;
+  animation-duration: 4s;
+}
+
+@keyframes slide{
+
+50%{
+  transform: translate(40px);
+}
+}
+
+
+
+.slidee{
+  animation-name: slidee;
+  animation-duration: 4s;
+}
+
+@keyframes slidee{
+
+  50%{
+    transform: translate(1500px);
+  }
+  }
+
+
+.rond{
+  animation-name: rond;
+  animation-duration: 4s;
+}
+
+@keyframes rond{
+
+  50%{
+    transform: rote (1500px);
+  }
+  }
 
 
