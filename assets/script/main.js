@@ -5,6 +5,7 @@ let sprint5 = document.querySelector('a:nth-of-type(5)')
 let interface = document.querySelector('a:nth-of-type(10)')
 let and = document.querySelector('a:nth-of-type(3)')
 let design = document.querySelector('a:nth-of-type(2)')
+let fix = document.querySelector('a:nth-of-type(6)')
 let frontend = document.querySelector('a:nth-of-type(1)')
 
 
@@ -16,7 +17,8 @@ sprint5.addEventListener('click', slideclick)
 interface.addEventListener('click', slideeclick)
 and.addEventListener('click', rondclick)
 design.addEventListener('click', flipclick)
-frontend.addEventListener('click', colorchangeclick)
+fix.addEventListener('click', colorchangeclick)
+frontend.addEventListener('click', slidecolorclick)
 
 function jumpHandler() {
   interaction.classList.toggle('jump')
@@ -27,7 +29,7 @@ function colorclick () {
 }
 
 function grootclick () {
-   the.classList.toggle('groot')
+  the.classList.toggle('groot')
 }
 function slideclick(){
   sprint5.classList.toggle('slide')
@@ -46,8 +48,11 @@ function flipclick () {
 }
 
 function colorchangeclick() {
-  frontend.classList.toggle('colorchange')
+  fix.classList.toggle('colorchange')
 }
 
+function slidecolorclick() {
+  frontend.classList.toggle('slidecolor')
+}
 
 

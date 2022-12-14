@@ -171,6 +171,40 @@ a:nth-of-type(12) {
 
 /* FRONTEND 7 */
 
+.slidecolor{
+  animation-name: slidecolor; 
+  animation-duration: 1s;
+}
+
+@keyframes  slidecolor{
+  0%{
+
+    background: linear-gradient(to left, transparent 0% 50%,pink 50% 100%);
+
+  }
+  100%{
+
+    background: linear-gradient(to left,pink 0% 100%);
+
+
+} 
+
+}
+
+
+
+/* DEVELOPMENT 8 */
+
+
+
+
+
+
+
+
+
+/* FIX 9 */
+
 .colorchange{
   animation-name: colorchange;
 	animation-duration: 1s;
@@ -190,4 +224,6 @@ a:nth-of-type(12) {
 
 }
 
+
+/* USER 10 */
 
