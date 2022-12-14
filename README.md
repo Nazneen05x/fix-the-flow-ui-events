@@ -1,6 +1,6 @@
 > _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+#  ✨ FIX-THE-FLOW-UI-EVENTS ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Beschrijving
