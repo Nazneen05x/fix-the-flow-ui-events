@@ -12,13 +12,22 @@ Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
 
 ## Experimenten 🧪
 
-<h3>CSS 👩‍🎨:</h3>
+<strong>CSS 👩‍🎨:</strong>
 <ul>
 <li>animation-name</li>
 <li>animation-duration</li>
 <li>@keyframes</li>
+</ul>
 
-## Licentie 🔒 
+<strong>JavaScript 👩🏿‍💻:</strong>
+<ul>
+<li>document.querySelector</li>
+<li>.addEventListener</li>
+<li>classList.toggle</li>
+</ul>
+
+
+## Licentie 🔒
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
 This work is licensed under [GNU GPLv3](./LICENSE).
