@@ -8,7 +8,7 @@ Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
 
 > Bekijk hier de tien buttons: https://nazneen05x.github.io/fix-the-flow-ui-events/
 
-## Experimenten
+## Experimenten 🧪
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
 <!-- Voeg een mooie poster visual toe 📸 per experiment -->
 
