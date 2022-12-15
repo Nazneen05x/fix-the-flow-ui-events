@@ -1,7 +1,9 @@
 > _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 #  ✨ FIX-THE-FLOW-UI-EVENTS ✨
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+![image](https://user-images.githubusercontent.com/112861261/207925939-2f9afd21-4fdf-40d3-a42c-c4802d8d9f56.png)
+
 
 ## Beschrijving 📝
 Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
