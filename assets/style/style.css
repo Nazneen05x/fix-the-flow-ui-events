@@ -195,9 +195,20 @@ a:nth-of-type(12) {
 
 /* DEVELOPMENT 8 */
 
+.shake{
+  animation-name: shake;
+  animation-duration: 1s;
+}
 
+@keyframes shake{
 
-
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+ 
+}
 
 
 
@@ -227,3 +238,13 @@ a:nth-of-type(12) {
 
 /* USER 10 */
 
+.vorm{
+  animation-name: vorm;
+	animation-duration: 2s;
+}
+
+@keyframes vorm{
+  50%{
+    border-radius: 8px; 
+  }
+}

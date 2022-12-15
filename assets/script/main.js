@@ -7,6 +7,8 @@ let and = document.querySelector('a:nth-of-type(3)')
 let design = document.querySelector('a:nth-of-type(2)')
 let fix = document.querySelector('a:nth-of-type(6)')
 let frontend = document.querySelector('a:nth-of-type(1)')
+let user = document.querySelector('a:nth-of-type(9)')
+let development = document.querySelector('a:nth-of-type(4)')
 
 
 interaction.addEventListener('click', jumpHandler)
@@ -19,6 +21,8 @@ and.addEventListener('click', rondclick)
 design.addEventListener('click', flipclick)
 fix.addEventListener('click', colorchangeclick)
 frontend.addEventListener('click', slidecolorclick)
+user.addEventListener('click', vormclick)
+development.addEventListener('click', shakeclick)
 
 function jumpHandler() {
   interaction.classList.toggle('jump')
@@ -55,4 +59,10 @@ function slidecolorclick() {
   frontend.classList.toggle('slidecolor')
 }
 
+function vormclick() {
+  user.classList.toggle('vorm')
+}
 
+function shakeclick () {
+  development.classList.toggle('shake')
+}
