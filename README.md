@@ -3,9 +3,10 @@
 #  ✨ FIX-THE-FLOW-UI-EVENTS ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+## Beschrijving 📝
+Ik heb op tien buttons animaties toegepast met behulp van CSS en JavaScript.
+
+> Bekijk hier de tien buttons: https://nazneen05x.github.io/fix-the-flow-ui-events/
 
 ## Experimenten
 <!-- In de Experimenten beschrijf je wat je per experimnet hebt gedaan en documenteer je de code aan de hand van voorbeelden -->
