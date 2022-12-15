@@ -1,3 +1,5 @@
+
+// SELECTOR
 let interaction = document.querySelector('a:nth-of-type(12)')
 let flow = document.querySelector('a:nth-of-type(8)')
 let the = document.querySelector('a:nth-of-type(7)')
@@ -10,7 +12,7 @@ let frontend = document.querySelector('a:nth-of-type(1)')
 let user = document.querySelector('a:nth-of-type(9)')
 let development = document.querySelector('a:nth-of-type(4)')
 
-
+// EVENT
 interaction.addEventListener('click', jumpHandler)
 interaction.addEventListener('animationend', jumpHandler)
 flow.addEventListener('click', colorclick)
@@ -24,6 +26,7 @@ frontend.addEventListener('click', slidecolorclick)
 user.addEventListener('click', vormclick)
 development.addEventListener('click', shakeclick)
 
+// Functie
 function jumpHandler() {
   interaction.classList.toggle('jump')
 }

@@ -93,6 +93,7 @@ a:nth-of-type(12) {
  50% {background-color: pink};
 }
 
+
 /* THE 2 */
 
 .groot{
@@ -112,6 +113,7 @@ a:nth-of-type(12) {
 }
 } 
 
+
 /* SPRINT5 3 */
 
 .slide{
@@ -125,6 +127,7 @@ a:nth-of-type(12) {
   transform: translate(40px);
 }
 }
+
 
 /* INTERFACE 4 */
 
@@ -140,6 +143,7 @@ a:nth-of-type(12) {
 }
 }
 
+
 /* AND 5 */
 
 .rond{
@@ -153,6 +157,7 @@ a:nth-of-type(12) {
   transform: rotate(180deg);
 }
 }
+
 
 /* DESIGN 6 */
 
@@ -168,6 +173,7 @@ a:nth-of-type(12) {
 }
 
 }
+
 
 /* FRONTEND 7 */
 
@@ -192,7 +198,6 @@ a:nth-of-type(12) {
 }
 
 
-
 /* DEVELOPMENT 8 */
 
 .shake{
@@ -211,9 +216,6 @@ a:nth-of-type(12) {
 }
 
 
-
-
-
 /* FIX 9 */
 
 .colorchange{
@@ -227,11 +229,11 @@ a:nth-of-type(12) {
 
 @keyframes colorchange{
 
-0% { background-color: blue; }
-25% { background-color: orange; }
-50% { background-color: yellow; }
-75% { background-color: black; }
-100% { background-color: red; }
+  0% { background-color: blue; }
+  25% { background-color: orange; }
+  50% { background-color: yellow; }
+  75% { background-color: black; }
+  100% { background-color: red; }
 
 }
 
@@ -247,4 +249,5 @@ a:nth-of-type(12) {
   50%{
     border-radius: 8px; 
   }
-}
+} 
+
